@@ -1,0 +1,328 @@
+Prerequisites
+
+	Introduction to Azure Cloud Shell - Describe Microsoft Azure Cloud Shell, learn how it works, and explore 	basic steps for its usage.
+
+		Introduction
+		What is Azure Cloud Shell?
+		How does Azure Cloud Shell work?
+		When should you use Azure Cloud Shell?
+		Module assessment
+		Summary
+
+	Deploy Azure infrastructure by using JSON ARM templates - Write JSON Azure Resource Manager templates (ARM 	templates) by using Visual Studio Code to deploy your infrastructure to Azure consistently and reliably.
+
+		Introduction
+		Explore Azure Resource Manager template structure
+		Exercise - Create and deploy an Azure Resource Manager template
+		Add flexibility to your Azure Resource Manager template by using parameters and outputs
+		Exercise - Add parameters and outputs to your Azure Resource Manager template
+		Module assessment
+		Summary
+
+Manage identities and governance in Azure
+
+	Understand Microsoft Entra ID - This module explains Microsoft Entra ID. You'll compare Microsoft Entra ID 	to Active Directory DS, learn about Microsoft Entra ID P1 and P2, and explore Microsoft Entra Domain 	Services for managing domain-joined devices and apps in the cloud.
+
+		Introduction
+		Examine Microsoft Entra ID
+		Compare Microsoft Entra ID and Active Directory Domain Services
+		Examine Microsoft Entra ID as a directory service for cloud apps
+		Compare Microsoft Entra ID P1 and P2 plans
+		Examine Microsoft Entra Domain Services
+		Module assessment
+		Summary
+
+	Create, configure, and manage identities - Access to cloud-based workloads needs to be controlled centrally by providing a definitive identity for each user and resource. You can ensure employees and vendors have just-enough access to do their job.
+
+		Introduction
+		Create, configure, and manage users
+		Exercise - assign licenses to users
+		Exercise - restore or remove deleted users
+		Create, configure, and manage groups
+		Exercise - add groups in Microsoft Entra ID
+		Configure and manage device registration
+		Manage licenses
+		Exercise - change group license assignments
+		Exercise - change user license assignments
+		Create custom security attributes
+		Explore automatic user creation
+		Module assessment
+		Summary and resources
+
+	Describe the core architectural components of Azure - This module explains the basic infrastructure components of Microsoft Azure. You'll learn about the physical infrastructure and how resources are managed.
+
+		Introduction
+		What is Microsoft Azure
+		Get started with Azure accounts
+		Describe Azure physical infrastructure
+		Describe Azure management infrastructure
+		Module assessment
+		Summary
+
+	Azure Policy initiatives - In this module, you learn how Azure Policy initiatives can be used to enforce organizational standards, assess compliance at scale, and manage Azure 	resources effectively.
+
+		Introduction
+		Cloud Adoption Framework for Azure
+		Azure Policy design principles
+		Azure Policy resources
+		Azure Policy definitions
+		Evaluation of resources through Azure Policy
+		Check your knowledge
+		Summary
+
+	Secure your Azure resources with Azure role-based access control (Azure RBAC) - Learn how to use Azure RBAC to manage access to resources in Azure.
+
+		Introduction
+		What is Azure RBAC?
+		Knowledge check - What is Azure RBAC?
+		Exercise - List access using Azure RBAC and the Azure portal
+		Exercise - Grant access using Azure RBAC and the Azure portal
+		Exercise - View activity logs for Azure RBAC changes
+		Module assessment
+		Summary
+
+	Allow users to reset their password with Microsoft Entra self-service password reset - Evaluate self-service password reset to allow users in your organization to reset their passwords or unlock their accounts. Set up, configure, and test self-service password reset.
+
+		Introduction
+		What is self-service password reset in Microsoft Entra ID?
+		Implement Microsoft Entra self-service password reset
+		Exercise - Set up self-service password reset
+		Exercise - Customize directory branding
+		Summary
+
+Manage virtual networks
+
+	Configure virtual networks - Learn to configure virtual networks and subnets, including IP addressing.
+
+		Introduction
+		Plan virtual networks
+		Create subnets
+		Create virtual networks
+		Plan IP addressing
+		Create public IP addressing
+		Associate public IP addresses
+		Allocate or assign private IP addresses
+		Exercise: Create and configure virtual networks
+		Module assessment
+		Summary and resources
+
+	Configure network security groups - Learn how to implement network security groups, and ensure network security group rules are correctly applied.
+
+		Introduction
+		Implement network security groups
+		Determine network security group rules
+		Determine network security group effective rules
+		Create network security group rules
+		Implement application security groups
+		Exercise - Implement virtual networking
+		Module assessment
+		Summary and resources
+
+	Host your domain on Azure DNS - Create a DNS zone for your domain name. Create DNS records to map the domain to an IP address. Test that the domain name resolves to your web server.
+
+		Introduction
+		What is Azure DNS?
+		Configure Azure DNS to host your domain
+		Exercise - Create a DNS zone and an A record by using Azure DNS
+		Dynamically resolve resource name by using alias record
+		Exercise - Create alias records for Azure DNS
+		Summary
+
+	Configure Azure Virtual Network peering - Learn to configure an Azure Virtual Network peering connection and address transit and connectivity concerns.
+
+		Introduction
+		Determine Azure Virtual Network peering uses
+		Determine gateway transit and connectivity
+		Create virtual network peering
+		Extend peering with user-defined routes and service chaining
+		Exercise - Implement Intersite Connectivity
+		Module assessment
+		Summary and resources
+
+	Manage and control traffic flow in your Azure deployment with routes - Learn how to control Azure virtual network traffic by implementing custom routes.
+
+		Introduction
+		Identify routing capabilities of an Azure virtual network
+		Exercise - Create custom routes
+		What is an NVA?
+		Exercise - Create an NVA and virtual machines
+		Exercise - Route traffic through the NVA
+		Summary
+
+	Introduction to Azure Load Balancer - This module explains what Azure Load Balancer does, how it works, and when you should choose to use Load Balancer as a solution to meet your organization's needs.
+
+		Introduction
+		What is Azure Load Balancer?
+		How Azure Load Balancer works
+		When to use Azure Load Balancer
+		Module assessment
+		Summary
+
+	Introduction to Azure Application Gateway - This module explains what Azure Application Gateway does, how it works, and when you should choose to use Application Gateway as a solution to meet your organization's needs.
+
+		Introduction
+		What is Azure Application Gateway?
+		How Azure Application Gateway works
+		When to use Azure Application Gateway
+		Module assessment
+		Summary
+
+	Introduction to Azure Network Watcher - Azure Network Watcher allows your organization to detect and monitor issues related to the network performance of infrastructure as a service (IaaS) resources in Microsoft Azure. This module explains what Network Watcher does, how it works, and when you should choose to use Network Watcher as a solution to meet your organization's needs.
+
+		Introduction
+		What is Azure Network Watcher?
+		How Azure Network Watcher works
+		When to use Azure Network Watcher
+		Module assessment
+		Summary
+
+Implement and manage storage in Azure
+
+	Configure storage accounts - Learn how to configure storage accounts, including replication and endpoints.
+
+		Introduction
+		Implement Azure Storage
+		Explore Azure Storage services
+		Determine storage account types
+		Determine replication strategies
+		Access storage
+		Secure storage endpoints
+		Module assessment
+		Summary and resources
+
+	Configure Azure Blob Storage - Learn how to configure Azure Blob Storage, including tiers and object replication.
+
+		Introduction
+		Implement Azure Blob Storage
+		Create blob containers
+		Assign blob access tiers
+		Add blob lifecycle management rules
+		Determine blob object replication
+		Manage blobs
+		Determine Blob Storage pricing
+		Exercise - Provide storage for the public website
+		Module assessment
+		Summary and resources
+
+	Configure Azure Storage security - Learn how to configure common Azure Storage security features like storage access signatures.
+
+		Introduction
+		Review Azure Storage security strategies
+		Create shared access signatures
+		Identify URI and SAS parameters
+		Determine Azure Storage encryption
+		Create customer-managed keys
+		Apply Azure Storage security best practices
+		Exercise: Manage Azure Storage
+		Module assessment
+		Summary and resources
+
+	Configure Azure Files - Learn how to configure Azure Files and Azure File Sync.
+
+		Introduction
+		Compare storage for file shares and blob data
+		Manage Azure file shares
+		Create file share snapshots
+		Implement soft delete for Azure Files
+		Use Azure Storage Explorer
+		Consider Azure File Sync
+		Knowledge check
+		Summary and resources
+
+Deploy and manage Azure compute resources
+
+	Introduction to Azure virtual machines - Learn about the decisions you make before creating a virtual machine, the options to create and manage the VM, and the extensions and services you use to manage your VM.
+
+		Introduction
+		Compile a checklist for creating an Azure Virtual Machine
+		Exercise - Create a VM using the Azure portal
+		Describe the options available to create and manage an Azure Virtual Machine
+		Manage the availability of your Azure VMs
+		Back up your virtual machines
+		Module assessment
+		Summary
+
+	Configure virtual machine availability - Learn how to configure virtual machine availability including vertical and horizontal scaling. 
+
+		Introduction
+		Plan for maintenance and downtime
+		Create availability sets
+		Review update domains and fault domains
+		Review availability zones
+		Compare vertical and horizontal scaling
+		Implement Azure Virtual Machine Scale Sets
+		Create Virtual Machine Scale Sets
+		Implement autoscale
+		Configure autoscale
+		Module assessment
+		Summary and resources
+
+	Configure Azure App Service plans - Learn how to configure an Azure App Service plan, including pricing and scaling.
+
+		Introduction
+		Implement Azure App Service plans
+		Determine Azure App Service plan pricing
+		Scale up and scale out Azure App Service
+		Configure Azure App Service autoscale
+		Module assessment
+		Summary and resources
+
+	Configure Azure App Service - Learn how to configure and monitor Azure App Service instances, including deployment slots.
+
+		Introduction
+		Implement Azure App Service
+		Create an app with App Service
+		Explore continuous integration and deployment
+		Create deployment slots
+		Add deployment slots
+		Secure your App Service app
+		Create custom domain names
+		Back up and restore your App Service app
+		Use Azure Application Insights
+		Exercise: Implement Web Apps
+		Module assessment
+		Summary and resources
+
+	Configure Azure Container Instances - Learn how to configure Azure Container Instances including container groups.
+
+		Introduction
+		Compare containers to virtual machines
+		Review Azure Container Instances
+		Implement container groups
+		Review Azure Container Apps
+		Exercise: Implement Container Instances
+		Module assessment
+		Summary and resources
+
+Monitor and back up Azure resources
+
+	Introduction to Azure Backup
+
+		Introduction
+		What is Azure Backup?
+		How Azure Backup works
+		When to use Azure Backup
+		Module assessment
+		Summary
+
+	Protect your virtual machines by using Azure Backup - Use Azure Backup to help protect on-premises servers, virtual machines, SQL Server, Azure file shares, and other workloads.
+
+		Introduction
+		Azure Backup features and scenarios
+		Back up an Azure virtual machine by using Azure Backup
+		Exercise - Back up an Azure virtual machine
+		Restore virtual machine data
+		Exercise - Restore Azure virtual machine data
+		Summary
+
+	Monitor your Azure virtual machines with Azure Monitor - Learn how to monitor your Azure VMs by using Azure Monitor to collect and analyze VM host and client metrics and logs.
+
+		Introduction
+		Monitoring for Azure VMs
+		Monitor VM host data
+		Use Metrics Explorer to view detailed host metrics
+		Collect client performance counters by using VM insights
+		Collect VM client event logs
+		Summary
+
+
